@@ -13,3 +13,6 @@ Abbey: Creating Presents to spawn throughout the game. Asset Decor.
 Sofia: Creating maze map on blender, adding to unity 
 Isabella: Create Elf assets and animations
 Bryce: Create scripts for elf behaviors. 2 main behaviors: Run towards the player (santa) Attack player If: Player has gifts: run away with a gift. Player has no gifts: run away empty handed
+
+Video Link:
+https://youtube.com/shorts/2hpORvvpVIo?feature=share
