@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: fd9fba93d5c07a545aef09aa06a334df
+=======
+guid: dc3ff5f6bc5804808834f66c532ae9ef
+>>>>>>> c6ad2fd (decorating map)
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: c29033ec72703f842932a17c643f4ede
+=======
+guid: 798339b0acf094150a1e738cdc86cf22
+>>>>>>> c6ad2fd (decorating map)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
