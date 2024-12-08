@@ -5,7 +5,7 @@ public class GiftBox : MonoBehaviour
 {
     public int giftValue = 1; // Amount of gifts this box provides
     public TextMeshProUGUI giftText; // Reference to the TextMeshProUGUI element
-    private int totalGifts = 0; // Total gifts collected by the player
+    private static int totalGifts = 0; // Total gifts collected by the player
     private bool isPlayerInRange = false; // Track if the player is in range
 
     void Update()
@@ -44,6 +44,9 @@ public class GiftBox : MonoBehaviour
 
     private void UpdateGiftText()
     {
-        giftText.text = "Gifts: " + totalGifts; // Update the displayed gift count
+        if (giftText != null)
+        {
+            giftText.text = "Gifts: " + totalGifts; // Update the displayed gift count
+        }
     }
 }

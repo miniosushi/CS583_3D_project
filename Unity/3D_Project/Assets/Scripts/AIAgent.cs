@@ -17,6 +17,8 @@ public class AIAgent : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         if(anim != null)
         anim = GetComponent<Animator>(); // Get the Animator component
+        if(player == null)
+        player = GameObject.FindWithTag("Player").transform;
     }
 
     void Update()
