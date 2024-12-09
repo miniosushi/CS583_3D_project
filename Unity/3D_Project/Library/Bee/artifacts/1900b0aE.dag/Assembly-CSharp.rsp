@@ -361,6 +361,7 @@
 "Assets/Scripts/Enemy Spawner.cs"
 "Assets/Scripts/FirstPersonController.cs"
 "Assets/Scripts/GiftBox.cs"
+"Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/Present Spawner.cs"
 -langversion:9.0
 /deterministic

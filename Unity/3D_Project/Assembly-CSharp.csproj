@@ -63,6 +63,7 @@
     <Compile Include="Assets\Presents\PresentSpawn.cs" />
     <Compile Include="Assets\Scripts\AIAgent.cs" />
     <Compile Include="Assets\Scripts\Present Spawner.cs" />
+    <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Scripts\GiftBox.cs" />
   </ItemGroup>

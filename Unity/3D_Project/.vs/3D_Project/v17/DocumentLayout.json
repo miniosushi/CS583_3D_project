@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Downloads\\AIAgent.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Downloads\\GiftBox.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\AIAgent.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AIAgent.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\PlayerHealth.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerHealth.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\FirstPersonController.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -13,7 +21,12 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Downloads\\FirstPersonController.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Downloads\\GiftBox.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\Present Spawner.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Present Spawner.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\Enemy Spawner.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Enemy Spawner.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,46 +36,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FirstPersonController.cs",
-              "DocumentMoniker": "F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\FirstPersonController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPersonController.cs",
-              "ToolTip": "F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\FirstPersonController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FirstPersonController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABQAAAA",
+              "DocumentIndex": 2,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T01:37:04.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AIAgent.cs",
-              "DocumentMoniker": "D:\\Downloads\\AIAgent.cs",
-              "ToolTip": "D:\\Downloads\\AIAgent.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T22:59:25.961Z",
+              "WhenOpened": "2024-12-09T01:51:56.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "FirstPersonController.cs",
+              "DocumentMoniker": "F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\FirstPersonController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FirstPersonController.cs",
+              "ToolTip": "F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\FirstPersonController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FirstPersonController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAEgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T01:34:46.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AIAgent.cs",
+              "DocumentMoniker": "F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\AIAgent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AIAgent.cs",
+              "ToolTip": "F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\AIAgent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AIAgent.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAIwIAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T23:44:01.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enemy Spawner.cs",
+              "DocumentMoniker": "F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\Enemy Spawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Spawner.cs",
+              "ToolTip": "F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\Enemy Spawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy Spawner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T23:13:43.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Present Spawner.cs",
+              "DocumentMoniker": "F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\Present Spawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Present Spawner.cs",
+              "ToolTip": "F:\\CS_583 Final Game Project\\CS583_3D_project\\Unity\\3D_Project\\Assets\\Scripts\\Present Spawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Present Spawner.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAE0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T22:57:13.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "GiftBox.cs",
               "DocumentMoniker": "D:\\Downloads\\GiftBox.cs",
               "ToolTip": "D:\\Downloads\\GiftBox.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T22:59:23.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FirstPersonController.cs",
               "DocumentMoniker": "D:\\Downloads\\FirstPersonController.cs",
               "ToolTip": "D:\\Downloads\\FirstPersonController.cs",
