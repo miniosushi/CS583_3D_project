@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     public Image healthBar; // Reference to the health bar UI element
     public GameObject gameOverScreen; // Reference to the game over screen UI element
     private float currentHealth; // Current health of the player
+    private FirstPersonController firstPersonController; // Reference to the FirstPersonController
 
     void Start()
     {
@@ -17,6 +18,7 @@ public class PlayerHealth : MonoBehaviour
         {
             gameOverScreen.SetActive(false); // Hide the game over screen at the start
         }
+        firstPersonController = GetComponent<FirstPersonController>(); // Get the FirstPersonController component
     }
 
     // Function to take damage
@@ -43,11 +45,20 @@ public class PlayerHealth : MonoBehaviour
         }
         // Optionally, restart the level after a delay
         Invoke("RestartLevel", 3f); // Restart the level after 3 seconds
+        
+        if (firstPersonController != null)
+        {
+            firstPersonController.enabled = false; // Disable the FirstPersonController
+        }
+
+        this.enabled = false; // Disable this script
+        
     }
 
     // Function to restart the level
     private void RestartLevel()
     {
+        GiftPickup.ResetTimer();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload the current scene
     }
 

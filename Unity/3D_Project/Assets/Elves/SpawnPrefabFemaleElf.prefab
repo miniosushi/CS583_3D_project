@@ -952,8 +952,9 @@ MonoBehaviour:
   player: {fileID: 0}
   visionRange: 20
   fieldOfViewAngle: 340
-  attackRange: 1.5
+  attackRange: 1.9
   pathResetDelay: 2
+  giftText: {fileID: 0}
 --- !u!195 &973499006136104070
 NavMeshAgent:
   m_ObjectHideFlags: 0

@@ -10,12 +10,14 @@ public class FirstPersonController : MonoBehaviour
     public float maxStamina = 100f;
     public float staminaRegenRate = 5f;
     public float sprintStaminaCost = 10f;
+    public float gravity = 9.81f; // Gravity force
     public Image staminaBar; // Reference to the stamina bar UI element
 
     private CharacterController characterController;
     private float rotationX = 0f;
     private float currentStamina;
     private bool isSprinting = false;
+    private Vector3 velocity; // Velocity for gravity
 
     void Start()
     {
@@ -62,7 +64,18 @@ public class FirstPersonController : MonoBehaviour
         }
 
         Vector3 move = transform.right * moveDirectionX + transform.forward * moveDirectionZ;
-        characterController.Move(move * Time.deltaTime);
+
+        // Apply gravity
+        if (characterController.isGrounded)
+        {
+            velocity.y = 0f; // Reset velocity when grounded
+        }
+        else
+        {
+            velocity.y -= gravity * Time.deltaTime; // Apply gravity
+        }
+
+        characterController.Move((move + velocity) * Time.deltaTime);
 
         // Update stamina bar
         if (staminaBar != null)

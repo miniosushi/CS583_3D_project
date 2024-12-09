@@ -119,16 +119,18 @@ public class AIAgent : MonoBehaviour
         // Implement attack logic here
         Debug.Log("Attacking the player!");
 
-       /* GiftBox giftBox = FindObjectOfType<GiftBox>();
-        if (giftBox != null && giftBox.HasGifts())
+    
+        if(player.gameObject.GetComponent<GiftPickup>().HasGifts())
         {
-            giftBox.UseGift();
-            giftBox.UpdateGiftText(giftText);
+            player.gameObject.GetComponent<GiftPickup>().UseGift();
         }
         else
-        {*/
+        {
             player.gameObject.GetComponent<PlayerHealth>().TakeDamage(10f);
-        //}
+        }
+            
+            
+       
 
         // After attacking, reset path to return to spawn position
         agent.SetDestination(spawnPosition);

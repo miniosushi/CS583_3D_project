@@ -358,9 +358,11 @@
 -analyzer:"F:/2022.3.44f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Presents/PresentSpawn.cs"
 "Assets/Scripts/AIAgent.cs"
+"Assets/Scripts/EndSceneManager.cs"
 "Assets/Scripts/Enemy Spawner.cs"
 "Assets/Scripts/FirstPersonController.cs"
 "Assets/Scripts/GiftBox.cs"
+"Assets/Scripts/GiftPickup.cs"
 "Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/Present Spawner.cs"
 -langversion:9.0
